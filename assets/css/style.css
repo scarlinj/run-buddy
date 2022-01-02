@@ -23,10 +23,10 @@ header a {
     color: #fce138;
 }
 
-header nav {
+/* header nav {
     float: right;
     margin: 7px 0;
-}
+} */
 
 header nav ul li {
     display: inline;
