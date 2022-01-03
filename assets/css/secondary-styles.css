@@ -142,6 +142,13 @@ footer a {
     position: relative;
 }
 
+.hero {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 /* Hero Style End */
 
 /*homepage hero for privacy-policy.html. These two colors will override the ones above
