@@ -268,17 +268,14 @@ in .hero*/
 }
 
 .contact-info {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 450px;
+}
 
-    div {
-        width: 410px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: left;
-        margin: 30px 0 0 60px;
-        color: white;
-    }
+#reach-out div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0 0 60px;
 }
 
 .contact-info h3 {

@@ -181,6 +181,16 @@ in .hero*/
     margin: 0;
 }
 
+.page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+}
+
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -201,6 +211,22 @@ in .hero*/
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+}
+
+.secondary-content {
+    width: 80%;
+    margin: auto;
+    color: #024e76;
+
+    h3 (font-size: 25px;
+        margin: 20px 0 20px 0;
+    ) p (font-size: 16px;
+        line-height: 1.5;
+        margin: 20px 0 20px 0;
+    ) ul (margin: 15px 0 15px 0;
+    ) li (color: #39a6b2;
+        margin: 10px 0 10px 0;
+    }
 }
 
 .steps div {
