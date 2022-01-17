@@ -65,9 +65,9 @@ body {
 }
 
 
-.intro {
+/* .intro {
     text-align: center;
-}
+} */
 
 /* .intro h2 {
     font-size: 55 px;
@@ -89,7 +89,7 @@ body {
 }
 
 .steps {
-    text-align: center;
+    /* text-align: center; */
     background: #fce138;
 }
 
@@ -107,10 +107,16 @@ body {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    /* remove margin-bottom, padding and display for flex-box */
+    /* margin-bottom: 35px; */
+    /* padding: 0 100px 20px 100px; */
+    /* display: inline-block; */
     border-bottom: 3px solid;
+    /* center section titles and adjust margin-padding */
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -121,38 +127,12 @@ body {
     border-color: #39a6b2;
 }
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-footer h2 {
-    /* display: inline; */
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    /* float: right; */
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
-
 /* section class="hero" {
     padding: 100px;
 } */
 /* ---> put this in the .hero class section below
 
-/* Hero Style Start */
+/* Hero Style Start - height and position replaced with flexbox */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     /* height: 600px; */
@@ -261,7 +241,7 @@ in .hero*/
 }
 
 .trainers {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .trainer {
@@ -318,6 +298,8 @@ in .hero*/
     margin: 30px 0 0 60px;
 }
 
+.contact {}
+
 .contact-form {
     color: #fce138;
     background-color: #39a6b2;
@@ -341,3 +323,33 @@ in .hero*/
 }
 
 /* REACH OUT STYLES END */
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    /* display: inline; */
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    /* float: right; */
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
+.flex-row {
+    display: flex;
+}
